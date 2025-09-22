@@ -1,12 +1,13 @@
 import React from 'react'
 import { WA } from '../config'
+import logo from '../assets/logo.svg'; // <-- ajusta la ruta si difiere
 
 export default function Navbar() {
   return (
     <header className="bg-primary text-white">
       <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="text-2xl">🥭</div>
+          <img src={logo} alt="Santos Congelados - logo" className="w-8 h-8 object-contain block" />
           <div>
             <div className="font-bold text-lg">Santos Congelados</div>
             <div className="text-sm opacity-90">Al Mayoreo — Colima · Guadalajara · Tijuana</div>

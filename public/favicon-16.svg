@@ -1,0 +1,51 @@
+<!-- logo – copo de nieve en blanco -->
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- ❄️ Copo de nieve estilo emoji (AHORA BLANCO) -->
+  <g transform="translate(75, -10) scale(1.5)" stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+    <line x1="50" y1="10" x2="50" y2="90"/>
+    <line x1="10" y1="50" x2="90" y2="50"/>
+    <line x1="25" y1="25" x2="75" y2="75"/>
+    <line x1="75" y1="25" x2="25" y2="75"/>
+    
+    <line x1="50" y1="30" x2="45" y2="20"/>
+    <line x1="50" y1="30" x2="55" y2="20"/>
+
+    <line x1="50" y1="70" x2="45" y2="80"/>
+    <line x1="50" y1="70" x2="55" y2="80"/>
+
+    <line x1="30" y1="50" x2="20" y2="45"/>
+    <line x1="30" y1="50" x2="20" y2="55"/>
+
+    <line x1="70" y1="50" x2="80" y2="45"/>
+    <line x1="70" y1="50" x2="80" y2="55"/>
+
+    <line x1="36" y1="36" x2="30" y2="28"/>
+    <line x1="36" y1="36" x2="28" y2="30"/>
+
+    <line x1="64" y1="64" x2="70" y2="72"/>
+    <line x1="64" y1="64" x2="72" y2="70"/>
+
+    <line x1="64" y1="36" x2="70" y2="28"/>
+    <line x1="64" y1="36" x2="72" y2="30"/>
+
+    <line x1="36" y1="64" x2="30" y2="72"/>
+    <line x1="36" y1="64" x2="28" y2="70"/>
+  </g>
+
+  <!-- 🧺 Canasta base (escalada a 75%) -->
+  <g transform="translate(38, 80) scale(0.75)">
+    <path d="M50 100 L250 100 L230 230 L70 230 Z" fill="#f4a261" stroke="#5a3b1d" stroke-width="4" />
+    
+    <defs>
+      <pattern id="woven" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M0 10 H20 M10 0 V20" stroke="#8b5e3c" stroke-width="1.5"/>
+      </pattern>
+    </defs>
+    <path d="M54 104 L246 104 L228 226 L72 226 Z" fill="url(#woven)" />
+    
+    <rect x="45" y="85" width="210" height="20" rx="5" fill="#e07a3f" stroke="#5a3b1d" stroke-width="4" />
+    
+    <rect x="160" y="60" width="130" height="16" rx="4" transform="rotate(30 160 60)" fill="#a8551f" stroke="#5a3b1d" stroke-width="2" />
+    <circle cx="163" cy="68" r="4" fill="#5a3b1d" />
+  </g>
+</svg>
