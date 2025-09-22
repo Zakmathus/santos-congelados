@@ -46,7 +46,7 @@ export default function App() {
           <Advantages items={advantages} />
         </section>
         <section className="mt-14 mb-10">
-          <ContactCard phone={WA.DEFAULT} email="ventas@frutadelcampo.mx" locations={['Tijuana','Colima','Guadalajara']} />
+          <ContactCard phone={WA.DEFAULT} email="ventas@santoscongelados.mx" locations={['Tijuana','Colima','Guadalajara']} />
         </section>
       </main>
       <CTAFloat phone={WA.DEFAULT} />

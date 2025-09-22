@@ -1,5 +1,6 @@
 {
-  "name": "frutas-frontend",
+  "name": "santos-congelados",
+  "description": "Landing de Santos Congelados - Fruta congelada al mayoreo",
   "private": true,
   "version": "0.0.0",
   "type": "module",

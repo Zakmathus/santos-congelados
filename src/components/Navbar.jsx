@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div className="text-2xl">🥭</div>
           <div>
-            <div className="font-bold text-lg">Fruta Congelada</div>
+            <div className="font-bold text-lg">Santos Congelados</div>
             <div className="text-sm opacity-90">Al Mayoreo — Colima · Guadalajara · Tijuana</div>
           </div>
         </div>
